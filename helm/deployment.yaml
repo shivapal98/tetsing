@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+...
+  spec:
+    containers:
+      - name: nodejs
+        image: repository
+        env:
+        ports: 5000
